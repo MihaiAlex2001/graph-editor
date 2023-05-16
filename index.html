@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tema 2 - Editor grafuri | Maciuca Mihai 3.2A</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://gojs.net/latest/release/go.js"></script>
+    </head>
+    <body onload="init()">
+        <div class="center-container">
+            <h1>Tema 2 - LFA</h1>
+            <div class="container">
+                <div class="container_title">
+                    Editor de grafuri <button id="myBtn">Informatii editor</button>
+                </div>
+                <hr>
+                <div id="BoxDiv" class="editor"></div>
+            </div>
+        </div>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <ol>
+                    <li><b>Adauga nod</b>: Dublu click in chenar</li>
+                    <li><b>Editeaza nod:</b> Click pe numele nodului</li>
+                    <li><b>Sterge nod:</b> Click pe nod si dupa apasam tasta delete</li>
+                    <li><b>Adauga legatura:</b> Ducem cursorul pe marginea nodului dupa care apasam click si il tinem apsat, dupa tragem catre nodul dorit pentru a face legatura</li>
+                    <li><b>Editeaza legatura:</b> Click pe nume dupa care modificam</li>
+                    <li><b>Muta legatura:</b> Click pe linie dupa care folosindu-ne de cele doua cerculete care ne apar pe langa linie modificam traiectoria acesteia</li>
+                    <li><b>Un pas Inapoi / Inainte:</b> Foloseste combinatia de taste <b>ctrl + z</b> respectiv <b>ctrl + y</b></li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer_text">
+                Maciuca Mihai Alexandru - CR 3.2A
+            </div>
+        </div>
+
+        <script src="modal.js"></script>
+        <script src="functions.js"></script>
+    </body>
+</html>
